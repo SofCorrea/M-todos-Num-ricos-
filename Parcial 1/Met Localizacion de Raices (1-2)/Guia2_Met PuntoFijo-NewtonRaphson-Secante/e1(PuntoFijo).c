@@ -7,7 +7,7 @@ using namespace std;
 double g(double x);
 
 int main(int argc, char *argv[]) {
-	double x_v=-1, tol=pow(10,-12), error=1, x_n=0; // x_viejo lo elegis vos por donde empezar
+	double x_v=-1, tol=pow(10,-12), error=1, x_n=0; // x_viejo lo elegis vos por donde empezar,  punto de partida
 	int it=0;
 	
 	do{
